@@ -137,3 +137,17 @@ a {
     color: inherit;
 }
 
+.quote {
+    font-size: 36px; 
+    font-weight: 100;
+    font-style: italic;
+    padding: 150px 450px;
+    color: #1F2937;
+}
+
+.source {
+    font-size: 26px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: end;
+}

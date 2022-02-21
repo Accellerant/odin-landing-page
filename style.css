@@ -166,3 +166,10 @@ a {
 h4 {
     font-size: 28px;
 }
+
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 20px;
+}

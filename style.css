@@ -22,8 +22,15 @@ button {
     border-style: solid;
 }
 
-.firstBtn {
+.firstBtn, .infoPics img {
     border-color: #3882F6;
+}
+
+h3 {
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 
@@ -46,10 +53,56 @@ body {
     color: #F9FAF8;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.infoPics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+}
+
+p {
+    margin: 0;
+}
+
+.infoPics img {
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    width: 100%;
+}
+
+.infoPics p {
+    font-size: 18px;
+    color: #737F91;
+}
+
 .pageImage {
     display: flex;
     padding: 100px 250px;
     gap: 100px;
+}
+
+.pageImage div p {
+    margin: 20px 0;
 }
 
 .pageImage p, ul {
@@ -75,7 +128,7 @@ ul {
     padding: 0;
 }
 
-h1, h2, h3 {
+h1, h2{
     margin: 0;
 }
 
